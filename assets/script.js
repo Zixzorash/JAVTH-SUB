@@ -1,4 +1,4 @@
-YEBEKHE'18N DICTIONARY ---
+// --- I18N DICTIONARY ---
 const i18n = {
     en: {
         // General
