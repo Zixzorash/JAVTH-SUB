@@ -119,134 +119,135 @@ const i18n = {
         'keywordsLabel': 'Keywords to Emphasize',
         'keywordsNote': 'These terms will be prioritized in the translation context.'
     },
-    fa: {
+    th: {
         // General
-        'pageTitle': 'مترجم زیرنویس',
-        'pageSubtitle': 'ترجمه با هوش مصنوعی',
-        'mainHeading': 'ترجمه زیرنویس در ۳ مرحله ساده',
-        'mainSubheading': 'برای ترجمه زیرنویس خود توسط هوش مصنوعی، مراحل زیر را دنبال کنید.',
-        'next': 'بعدی',
-        'back': 'قبلی',
-        'remove': 'حذف',
+        'pageTitle': 'โปรแกรมแปลซับไตเติล',
+        'pageSubtitle': 'แปลภาษาด้วย AI',
+        'mainHeading': 'แปลซับไตเติลใน 3 ขั้นตอนง่ายๆ',
+        'mainSubheading': 'ทำตามขั้นตอนด้านล่างเพื่อแปลซับไตเติลของคุณด้วย AI',
+        'next': 'ถัดไป',
+        'back': 'ก่อนหน้า',
+        'remove': 'ลบ',
         // Step Navigator
-        'step1Indicator': 'مرحله ۱',
-        'step1Name': 'تنظیم API',
-        'step2Indicator': 'مرحله ۲',
-        'step2Name': 'افزودن محتوا',
-        'step3Indicator': 'مرحله ۳',
-        'step3Name': 'ترجمه',
+        'step1Indicator': 'ขั้นตอนที่ 1',
+        'step1Name': 'ตั้งค่า API',
+        'step2Indicator': 'ขั้นตอนที่ 2',
+        'step2Name': 'เพิ่มเนื้อหา',
+        'step3Indicator': 'ขั้นตอนที่ 3',
+        'step3Name': 'แปลภาษา',
         // Step 1: API
-        'step1Title': 'مرحله ۱: کلید API خود را پیکربندی کنید',
-        'step1Description': 'این ابزار از Gemini API استفاده می‌کند. لطفاً برای ادامه، کلید API خود را ارائه دهید. کلید شما به صورت محلی در مرورگرتان ذخیره می‌شود و هرگز به سرورهای ما ارسال نمی‌گردد.',
-        'selectApiKeyLabel': 'یک کلید API انتخاب کنید',
-        'addNewKeyTitle': 'افزودن کلید جدید',
-        'newKeyNameLabel': 'نام کلید (مثال: "شخصی"، "کاری")',
-        'newKeyValueLabel': 'مقدار کلید API',
-        'addKeyBtn': 'افزودن کلید',
-        'deleteKeyBtn': 'حذف کلید',
-        'noKeysAdded': 'هنوز کلیدی اضافه نشده است. یک کلید در پایین اضافه کنید.',
-        'getApiKeyLink': "کلید رایگان خود را از <a href='https://aistudio.google.com/app/apikey' target='_blank' class='font-medium underline hover:text-blue-600'>Google AI Studio</a> دریافت کنید.",
+        'step1Title': 'ขั้นตอนที่ 1: กำหนดค่า API Key ของคุณ',
+        'step1Description': 'เครื่องมือนี้ใช้ Gemini API โปรดระบุ API Key ของคุณเพื่อดำเนินการต่อ คีย์ของคุณจะถูกจัดเก็บไว้ในเบราว์เซอร์ของคุณและจะไม่ถูกส่งไปยังเซิร์ฟเวอร์ของเรา',
+        'selectApiKeyLabel': 'เลือก API Key',
+        'addNewKeyTitle': 'เพิ่มคีย์ใหม่',
+        'newKeyNameLabel': 'ชื่อคีย์ (เช่น "ส่วนตัว", "ทำงาน")',
+        'newKeyValueLabel': 'ค่า API Key',
+        'addKeyBtn': 'เพิ่มคีย์',
+        'deleteKeyBtn': 'ลบคีย์',
+        'noKeysAdded': 'ยังไม่ได้เพิ่มคีย์ เพิ่มคีย์ที่ด้านล่าง',
+        'getApiKeyLink': "รับคีย์ฟรีของคุณจาก <a href='https://aistudio.google.com/app/apikey' target='_blank' class='font-medium underline hover:text-blue-600'>Google AI Studio</a>",
         // Step 2: Content
-        'step2Title': 'مرحله ۲: محتوای زیرنویس خود را اضافه کنید',
-        'fileUpload': 'بارگذاری فایل',
-        'pasteText': 'چسباندن متن',
-        'dropzone': "فایل SRT، VTT، SSA یا ASS را بکشید و رها کنید",
-        'dropzoneOr': "یا",
-        'dropzoneChoose': "انتخاب فایل",
-        'fileSelected': "فایل انتخاب شد:",
-        'pastePlaceholder': "محتوای SRT خود را اینجا بچسبانید...",
-        'pasteNote': "توجه: برای چسباندن متن فقط از فرمت SRT پشتیبانی می‌شود.",
+        'step2Title': 'ขั้นตอนที่ 2: เพิ่มเนื้อหาซับไตเติลของคุณ',
+        'fileUpload': 'อัปโหลดไฟล์',
+        'pasteText': 'วางข้อความ',
+        'dropzone': "ลากและวางไฟล์ SRT, VTT, SSA หรือ ASS",
+        'dropzoneOr': "หรือ",
+        'dropzoneChoose': "เลือกไฟล์",
+        'fileSelected': "ไฟล์ที่เลือก:",
+        'pastePlaceholder': "วางเนื้อหา SRT ของคุณที่นี่...",
+        'pasteNote': "หมายเหตุ: รองรับเฉพาะรูปแบบ SRT สำหรับการวางข้อความ",
         // Step 3: Translate & Advanced Settings
-        'step3Title': 'مرحله ۳: نهایی‌سازی و ترجمه',
-        'targetLangLabel': 'زبان مقصد',
-        'targetLangPlaceholder': 'مثال: اسپانیایی، فرانسوی، ژاپنی',
-        'advancedSettings': 'تنظیمات پیشرفته',
-        'advancedWarning': 'تنظیم این پارامترها می‌تواند بر عملکرد، هزینه و کیفیت ترجمه تأثیر بگذارد. با احتیاط عمل کنید.',
-        'modelLabel': 'مدل هوش مصنوعی',
-        'temperatureLabel': 'دما (خلاقیت)',
-        'chunkStrategyLabel': 'استراتژی تقسیم‌بندی',
-        'chunkStrategyDefault': 'پیش‌فرض',
-        'chunkStrategyAuto': 'خودکار',
-        'chunkStrategyManual': 'دستی',
-        'chunkCountManualLabel': 'تعداد بخش‌ها',
-        'requestDelayLabel': 'تأخیر بین درخواست‌ها (ms)',
-        'requestDelayNote': 'تأخیر بین هر درخواست API (مثال: 4000 برای طرح رایگان 15 RPM).',
-        'useProxyLabel': 'استفاده از پروکسی',
-        'customProxyLabel': 'آدرس پروکسی سفارشی (اختیاری)',
-        'customProxyNote': 'پروکسی خود را با استفاده از <a href="https://github.com/yebekhe/middleman" target="_blank" class="underline hover:text-primary-400">Middleman</a> راه‌اندازی کنید.',
-        'promptSettingsTitle': 'تنظیمات پرامپت و جداکننده',
-        'customSeparatorLabel': 'جداکننده متن',
-        'customSeparatorNote': 'رشته‌ای که برای جدا کردن خطوط متن ارسالی به هوش مصنوعی استفاده می‌شود. از \\n برای خط جدید استفاده کنید.',
-        'translationToneLabel': 'لحن ترجمه',
-        'translationToneNote': 'مثال: رسمی، غیررسمی، طنزآمیز، دراماتیک.',
-        'customPromptLabel': 'قالب پرامپت ترجمه',
-        'customPromptNote': 'از {LANG}، {TONE} و {TEXT} به عنوان placeholder استفاده کنید.',
-        'noCensorLabel': 'افزودن دستور "بدون سانسور"',
-        'noCensorNote': 'درخواستی به پرامپت اضافه می‌کند تا محتوای صریح سانسور نشود.',
-        'translateNow': 'شروع ترجمه',
+        'step3Title': 'ขั้นตอนที่ 3: สรุปและแปลภาษา',
+        'targetLangLabel': 'ภาษาปลายทาง',
+        'targetLangPlaceholder': 'เช่น สเปน, ฝรั่งเศส, ญี่ปุ่น',
+        'advancedSettings': 'การตั้งค่าขั้นสูง',
+        'advancedWarning': 'การปรับพารามิเตอร์เหล่านี้อาจส่งผลต่อประสิทธิภาพ ค่าใช้จ่าย และคุณภาพของการแปล โปรดใช้อย่างระมัดระวัง',
+        'modelLabel': 'โมเดล AI',
+        'temperatureLabel': 'อุณหภูมิ (ความสร้างสรรค์)',
+        'chunkStrategyLabel': 'กลยุทธ์การแบ่งส่วน (Chunk Strategy)',
+        'chunkStrategyDefault': 'ค่าเริ่มต้น',
+        'chunkStrategyAuto': 'อัตโนมัติ',
+        'chunkStrategyManual': 'กำหนดเอง',
+        'chunkCountManualLabel': 'จำนวนส่วนแบ่ง',
+        'requestDelayLabel': 'ความหน่วงระหว่างคำขอ (ms)',
+        'requestDelayNote': 'ความหน่วงระหว่างแต่ละคำขอ API (เช่น 4000 สำหรับแผนฟรี 15 RPM)',
+        'useProxyLabel': 'ใช้งานพร็อกซี (Proxy)',
+        'customProxyLabel': 'URL พร็อกซีกำหนดเอง (ไม่บังคับ)',
+        'customProxyNote': 'ตั้งค่าพร็อกซีของคุณโดยใช้ <a href="https://github.com/yebekhe/middleman" target="_blank" class="underline hover:text-primary-400">Middleman</a>',
+        'promptSettingsTitle': 'การตั้งค่า Prompt และตัวคั่น',
+        'customSeparatorLabel': 'ตัวคั่นข้อความ',
+        'customSeparatorNote': 'สตริงที่ใช้คั่นบรรทัดข้อความที่ส่งไปยัง AI ใช้ \\n สำหรับขึ้นบรรทัดใหม่',
+        'translationToneLabel': 'น้ำเสียงการแปล',
+        'translationToneNote': 'เช่น เป็นทางการ, ไม่เป็นทางการ, ตลกขบขัน, ดราม่า',
+        'customPromptLabel': 'เทมเพลต Prompt การแปล',
+        'customPromptNote': 'ใช้ {LANG}, {TONE} และ {TEXT} เป็นตัวแทนที่ (Placeholder)',
+        'noCensorLabel': 'เพิ่มคำสั่ง "ไม่เซ็นเซอร์"',
+        'noCensorNote': 'เพิ่มคำขอใน Prompt เพื่อไม่ให้ AI เซ็นเซอร์เนื้อหาที่โจ่งแจ้ง',
+        'translateNow': 'เริ่มการแปล',
         // Results Area
-        'progressTitle': 'در حال ترجمه...',
-        'progressComplete': 'تکمیل شد',
-        'progressEstimating': 'در حال تخمین...',
-        'progressCalculating': 'در حال محاسبه...',
-        'progressRemaining': 'باقیمانده',
-        'editTitle': 'ترجمه خود را ویرایش کنید',
-        'successTitle': 'ترجمه کامل شد!',
-        'successText': 'فایل ترجمه شده شما برای دانلود آماده است.',
-        'errorTitle': 'خطایی روی داد',
-        'startNew': 'شروع ترجمه جدید',
-        'downloadFile': 'دانلود فایل',
-        'retryFailed': 'تلاش مجدد برای بخش‌های ناموفق:',
-        'retryButton': 'تلاش مجدد',
-        'retryingButton': 'در حال تلاش...',
-        'findReplace': 'یافتن/جایگزینی',
+        'progressTitle': 'กำลังแปล...',
+        'progressComplete': 'เสร็จสมบูรณ์',
+        'progressEstimating': 'กำลังประมาณเวลา...',
+        'progressCalculating': 'กำลังคำนวณ...',
+        'progressRemaining': 'เหลือเวลา',
+        'editTitle': 'แก้ไขคำแปลของคุณ',
+        'successTitle': 'การแปลเสร็จสมบูรณ์!',
+        'successText': 'ไฟล์ที่แปลแล้วของคุณพร้อมสำหรับการดาวน์โหลด',
+        'errorTitle': 'เกิดข้อผิดพลาด',
+        'startNew': 'เริ่มการแปลใหม่',
+        'downloadFile': 'ดาวน์โหลดไฟล์',
+        'retryFailed': 'ลองใหม่สำหรับส่วนที่ล้มเหลว:',
+        'retryButton': 'ลองใหม่',
+        'retryingButton': 'กำลังลองใหม่...',
+        'findReplace': 'ค้นหา/แทนที่',
         'tableHeaderId': '#',
-        'tableHeaderOriginal': 'متن اصلی',
-        'tableHeaderTranslated': 'متن ترجمه‌شده (قابل ویرایش)',
-        'tableHeaderAction': 'عملیات',
-        'logTitle': 'لاگ زنده',
-        'logCopy': 'کپی',
-        'logCopied': 'کپی شد!',
-        'logClear': 'پاک‌سازی',
+        'tableHeaderOriginal': 'ข้อความต้นฉบับ',
+        'tableHeaderTranslated': 'ข้อความที่แปลแล้ว (แก้ไขได้)',
+        'tableHeaderAction': 'การดำเนินการ',
+        'logTitle': 'บันทึก (Log) สด',
+        'logCopy': 'คัดลอก',
+        'logCopied': 'คัดลอกแล้ว!',
+        'logClear': 'ล้าง',
         // Modals
-        'quotaModalTitle': 'محدودیت استفاده',
-        'quotaModalLabel': 'به یک ترکیب کلید API / مدل دیگر تغییر دهید:',
-        'quotaModalNote': 'ترجمه از جایی که متوقف شده بود ادامه خواهد یافت.',
-        'findReplaceTitle': 'یافتن و جایگزینی',
-        'findLabel': 'یافتن',
-        'replaceLabel': 'جایگزینی با',
-        'caseSensitiveLabel': 'حساس به حروف بزرگ و کوچک',
-        'findNextBtn': 'بعدی را بیاب',
-        'replaceBtn': 'جایگزین کن',
-        'replaceAllBtn': 'جایگزینی همه',
-        'switchAndContinueBtn': 'تغییر و ادامه',
-        'cancelTranslationBtn': 'لغو ترجمه',
+        'quotaModalTitle': 'ถึงขีดจำกัดการใช้งาน',
+        'quotaModalLabel': 'เปลี่ยนไปใช้ API Key / โมเดล อื่น:',
+        'quotaModalNote': 'การแปลจะดำเนินต่อไปจากจุดที่หยุดไว้',
+        'findReplaceTitle': 'ค้นหาและแทนที่',
+        'findLabel': 'ค้นหา',
+        'replaceLabel': 'แทนที่ด้วย',
+        'caseSensitiveLabel': 'ตัวพิมพ์ใหญ่-เล็กมีผล (Case Sensitive)',
+        'findNextBtn': 'ค้นหาถัดไป',
+        'replaceBtn': 'แทนที่',
+        'replaceAllBtn': 'แทนที่ทั้งหมด',
+        'switchAndContinueBtn': 'สลับและดำเนินการต่อ',
+        'cancelTranslationBtn': 'ยกเลิกการแปล',
         // Alerts & Confirmations
-        'clearMemoryConfirm': 'آیا مطمئن هستید که می‌خواهید تمام ترجمه‌های ذخیره شده در حافظه را پاک کنید؟',
-        'clearMemorySuccess': 'حافظه ترجمه پاک شد!',
-        'deleteKeyConfirm': 'آیا از حذف کلید "{keyName}" مطمئن هستید؟',
-        'errorRequired': 'هر دو فیلد نام و مقدار کلید الزامی است.',
-        'errorKeyExists': 'این کلید API قبلاً اضافه شده است.',
-        'errorNoFile': 'لطفا یک فایل زیرنویس انتخاب کنید.',
-        'errorNoText': 'لطفا محتوای SRT را وارد کنید.',
-        'errorNoTranslatableText': 'هیچ متن قابل ترجمه‌ای یافت نشد. محتوای اصلی در ویرایشگر بارگذاری شد.',
-        'errorTranslationFailed': 'یک خطای اساسی رخ داد: {error}',
-        'errorFindText': 'لطفا متنی برای یافتن وارد کنید.',
-        'errorFindEnd': 'به انتهای سند رسیدید.',
-        'footerText': 'ساخته شده با <i class="fas fa-heart text-red-500 mx-1"></i> توسط YEBEKHE',
-        'outputFormatLabel': 'فرمت خروجی',
-        'keywordsLabel': 'کلمات کلیدی برای تاکید',
-        'keywordsNote': 'این اصطلاحات در ترجمه اولویت خواهند داشت.'
+        'clearMemoryConfirm': 'คุณแน่ใจหรือไม่ว่าต้องการล้างคำแปลทั้งหมดที่บันทึกไว้ในหน่วยความจำ?',
+        'clearMemorySuccess': 'ล้างหน่วยความจำการแปลแล้ว!',
+        'deleteKeyConfirm': 'คุณแน่ใจหรือไม่ว่าต้องการลบคีย์ "{keyName}"?',
+        'errorRequired': 'จำเป็นต้องกรอกทั้งชื่อและค่าของคีย์',
+        'errorKeyExists': 'API Key นี้ถูกเพิ่มไว้แล้ว',
+        'errorNoFile': 'โปรดเลือกไฟล์ซับไตเติล',
+        'errorNoText': 'โปรดป้อนเนื้อหา SRT',
+        'errorNoTranslatableText': 'ไม่พบข้อความที่สามารถแปลได้ เนื้อหาต้นฉบับถูกโหลดลงในโปรแกรมแก้ไขแล้ว',
+        'errorTranslationFailed': 'เกิดข้อผิดพลาดร้ายแรง: {error}',
+        'errorFindText': 'โปรดป้อนข้อความที่ต้องการค้นหา',
+        'errorFindEnd': 'ถึงจุดสิ้นสุดของเอกสารแล้ว',
+        'footerText': 'สร้างด้วย <i class="fas fa-heart text-red-500 mx-1"></i> โดย IDOL_CHAMP',
+        'outputFormatLabel': 'รูปแบบไฟล์ผลลัพธ์ (Output Format)',
+        'keywordsLabel': 'คำหลัก (Keywords) ที่ต้องการเน้น',
+        'keywordsNote': 'คำเหล่านี้จะได้รับความสำคัญเป็นอันดับแรกในการแปล'
     }
 };
 
+
 // --- Global Variables & State ---
 const AVAILABLE_MODELS = [
+    'gemini-3.1-pro',
+    'gemini-3.5-flash',
+    'gemini-3-flash-preview',
     'gemini-2.5-pro',
-    'gemini-2.5-flash',
-    'gemini-2.0-flash',
-    'gemini-2.5-flash-lite',
-    'gemini-2.0-flash-lite'
+    'gemini-2.5-flash-lite'
 ];
 
 let uiLang = 'en';
@@ -258,9 +259,9 @@ let firstChunkTime = 0;
 let failedChunksData = [];
 let currentAllTranslatedEntries = [];
 let currentOriginalFileName = 'translation';
-let currentOriginalFormat = 'srt';
+let currentOriginalFormat = 'vtt';
 let currentApiKey = '';
-let currentModel = 'gemini-2.5-flash';
+let currentModel = 'gemini-3.5-flash';
 let currentTemperature = 0.7;
 let currentRequestDelay = 4000;
 let currentTargetLangForRetry = '';
@@ -289,7 +290,6 @@ let modelSwitchModal, modelSwitchDialog, modalSwitchBtn, modalCancelBtn, modalCo
 let separatorInput, promptTemplateInput, noCensorCheckbox, toneInput;
 let apiKeySelect, newKeyNameInput, newKeyValueInput, addKeyBtn, deleteKeyBtn;
 let customProxyContainer, customProxyInput;
-// New variables
 let outputFormatSelect, keywordsInput, sourceLangInput;
 
 // DOM references for new features
@@ -301,16 +301,15 @@ let findReplaceBtn, findReplaceModal, findReplaceDialog, findReplaceCloseBtn, fi
 function updateLanguage(lang) {
     uiLang = lang;
     localStorage.setItem('language', lang);
-    const isRTL = lang === 'fa';
+    const isThai = lang === 'th';
     const translations = i18n[uiLang];
     
     document.documentElement.lang = lang;
-    document.documentElement.dir = isRTL ? 'rtl' : 'ltr';
 
-    if (isRTL) {
-        document.body.classList.add('lang-fa');
+    if (isThai) {
+        document.body.classList.add('lang-th');
     } else {
-        document.body.classList.remove('lang-fa');
+        document.body.classList.remove('lang-th');
     }
 
     document.querySelectorAll('[data-i18n]').forEach(el => {
@@ -326,18 +325,9 @@ function updateLanguage(lang) {
         if (translations[key]) el.innerHTML = translations[key];
     });
     
-    // Handle dynamic elements and icons
-    document.querySelectorAll('.next-btn-icon').forEach(icon => {
-        icon.classList.toggle('fa-arrow-right', !isRTL);
-        icon.classList.toggle('fa-arrow-left', isRTL);
-    });
-    document.querySelectorAll('.back-btn-icon').forEach(icon => {
-        icon.classList.toggle('fa-arrow-left', !isRTL);
-        icon.classList.toggle('fa-arrow-right', isRTL);
-    });
-
     loadApiKeys();
 }
+
 
 function goToStep(stepNumber) {
     currentStep = stepNumber;
@@ -347,14 +337,9 @@ function goToStep(stepNumber) {
     stepIndicators.forEach((indicator, index) => {
         const step = index + 1;
         const textSpans = indicator.querySelectorAll('span');
-        indicator.className = 'group flex flex-col py-2 md:border-t-4 md:pt-4 md:pb-0'; // Base classes
+        indicator.className = 'group flex flex-col py-2 md:border-t-4 md:pt-4 md:pb-0';
         
-        // Direction-aware classes
-        if (document.documentElement.dir === 'rtl') {
-            indicator.classList.add('border-e-4', 'pe-4', 'md:border-e-0', 'md:pe-0');
-        } else {
-            indicator.classList.add('border-s-4', 'ps-4', 'md:border-s-0', 'md:ps-0');
-        }
+        indicator.classList.add('border-s-4', 'ps-4', 'md:border-s-0', 'md:ps-0');
         
         textSpans.forEach(span => span.className = 'text-sm font-medium');
 
@@ -371,7 +356,6 @@ function goToStep(stepNumber) {
     });
     window.scrollTo(0, 0);
 
-    // FIX: Run completion check for the newly activated step
     switch (stepNumber) {
         case 1:
             checkStep1Completion();
@@ -522,16 +506,13 @@ function showModelSwitchModal(failedModel, failedApiKey) {
         modalComboSelect.innerHTML = '';
         let availableOptions = 0;
 
-        // Populate the combo dropdown with all valid Key/Model combinations
         savedApiKeys.forEach(key => {
             AVAILABLE_MODELS.forEach(model => {
-                // The only invalid combination is the one that just failed.
                 if (key.value === failedApiKey && model === failedModel) {
-                    return; // Skip this option
+                    return;
                 }
 
                 const option = document.createElement('option');
-                // The value stores both key and model, separated by a pipe
                 option.value = `${key.value}|${model}`;
                 option.textContent = `${key.name} (${model})`;
                 modalComboSelect.appendChild(option);
@@ -785,20 +766,15 @@ function reconstructSubtitle(entries, format) {
     switch (format) {
         case 'vtt':
             return 'WEBVTT\n\n' + validEntries.map(e => {
-                // บังคับ format hh:mm:ss.SSS
-                // Timestamp ของ SRT (ต้นฉบับ) คือ 00:00:00,000
-                // เปลี่ยน , เป็น . เพื่อให้เป็น VTT: 00:00:00.000
                 let time = e.timeStamp.replace(/,/g, '.'); 
                 return `${e.id}\n${time}\n${e.text}`;
             }).join('\n\n');
 
         case 'txt':
-            // รวมเฉพาะข้อความ
             return validEntries.map(e => e.text).join('\n');
 
         case 'ass':
         case 'ssa':
-            // สร้าง Header พื้นฐานสำหรับ ASS หากไม่มี
             let header = `[Script Info]
 ScriptType: v4.00+
 PlayResX: 384
@@ -812,10 +788,9 @@ Style: Default,Arial,20,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
 `;
             const dialogueLines = validEntries.map(e => {
-                // แปลง Timestamp จาก 00:00:00,000 เป็น 0:00:00.00 (ASS Format)
                 const convertTime = (t) => {
                     if (!t) return "0:00:00.00";
-                    return t.replace(',', '.').slice(1, -1); // ตัดตัวเลขหลักแรกและหลักสุดท้ายออกให้พอดี format (แบบง่าย)
+                    return t.replace(',', '.').slice(1, -1);
                 };
                 
                 let start = "0:00:00.00";
@@ -823,11 +798,10 @@ Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
                 
                 if (e.timeStamp && e.timeStamp.includes('-->')) {
                     const times = e.timeStamp.split('-->');
-                    start = times[0].trim().replace(',', '.').slice(1, -1); // ปรับแต่งแบบง่าย
+                    start = times[0].trim().replace(',', '.').slice(1, -1);
                     end = times[1].trim().replace(',', '.').slice(1, -1);
                 }
 
-                // ทำความสะอาด text ไม่ให้มี line break ตีกันใน ASS (\N คือ newline ใน ASS)
                 const cleanText = e.text.replace(/\n/g, '\\N');
                 return `Dialogue: 0,${start},${end},Default,,0,0,0,,${cleanText}`;
             }).join('\n');
@@ -837,7 +811,6 @@ Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
         case 'srt':
         default:
             return validEntries.map(e => {
-                // บังคับใช้ , สำหรับ SRT
                 let time = e.timeStamp.replace(/\./g, ','); 
                 return `${e.id}\n${time}\n${e.text}`;
             }).join('\n\n') + '\n\n';
@@ -872,7 +845,6 @@ async function fetchTranslation(chunk, apiKey, targetLang, model, temperature) {
     const tone = toneInput.value.trim();
     const keywords = keywordsInput.value.trim();
     
-    // ดึงค่า Source Language
     const sourceLang = sourceLangInput ? sourceLangInput.value.trim() : 'Auto';
 
     const sourceTexts = chunk.map(entry => entry.text);
@@ -880,12 +852,11 @@ async function fetchTranslation(chunk, apiKey, targetLang, model, temperature) {
     
     let effectivePrompt = promptTemplate
         .replace('{SOURCE_LANG}', sourceLang) 
-        .replace('{LANG}', targetLang) // รองรับแบบเก่า
-        .replace('{TARGET_LANG}', targetLang) // รองรับแบบใหม่
+        .replace('{LANG}', targetLang)
+        .replace('{TARGET_LANG}', targetLang)
         .replace('{TEXT}', combinedText)
         .replace('{TONE}', tone);
 
-    // เพิ่ม Logic แทรก Keywords
     if (keywords) {
         effectivePrompt += `\n\n--- GLOSSARY / KEYWORDS TO EMPHASIZE ---\nUse the following terms accurately if they appear in the context:\n${keywords}\n--------------------------------------`;
     }
@@ -898,7 +869,7 @@ async function fetchTranslation(chunk, apiKey, targetLang, model, temperature) {
     let targetUrl = directUrl;
     if (useProxyCheckbox.checked) {
         const customProxy = customProxyInput.value.trim();
-        targetUrl = customProxy || proxyUrl; // Use custom if provided, else default
+        targetUrl = customProxy || proxyUrl;
     }
     
     let finalPayload = {
@@ -983,7 +954,6 @@ async function translateChunkRecursively(chunk, apiKey, targetLang, model, tempe
             if (userResponse && userResponse.choice === 'switch') {
                 const { newModel, newApiKey } = userResponse;
                 
-                // Set the override for this session
                 const failureKey = `${failedApiKey}|${failedModel}`;
                 sessionOverrides[failureKey] = { newApiKey, newModel };
                 logMessage(`Override stored for session: ${failureKey} -> ${newApiKey}|${newModel}`, 'info');
@@ -1004,7 +974,6 @@ async function translateChunk(chunk, apiKey, targetLang, model, temperature, req
     const textsToTranslate = [];
     const cachedResults = new Map();
 
-    // Check for session-level overrides before proceeding
     const failureKey = `${apiKey}|${model}`;
     const override = sessionOverrides[failureKey];
     let effectiveApiKey = apiKey;
@@ -1053,7 +1022,7 @@ async function translateChunk(chunk, apiKey, targetLang, model, temperature, req
 
 async function handleTranslate(event) {
     event.preventDefault();
-    sessionOverrides = {}; // Reset session overrides at the start of a new translation
+    sessionOverrides = {};
     formContainer.style.display = 'none';
     resultsArea.style.display = 'block';
     resetUIForNewTranslation();
@@ -1179,31 +1148,9 @@ function autoResizeTextarea(textarea) {
     textarea.style.height = (textarea.scrollHeight) + 'px';
 }
 
-function isRtl(text) {
-    const rtlRegex = /[\u0600-\u06FF\u0590-\u05FF]/; // Arabic, Persian, Hebrew characters
-    return rtlRegex.test(text);
-}
-
-function isLanguageRtl(langName) {
-    const lowerLang = langName.toLowerCase();
-    const rtlKeywords = ['persian', 'farsi', 'arabic', 'hebrew', 'urdu', 'pashto', 'sindhi'];
-    return rtlKeywords.some(keyword => lowerLang.includes(keyword));
-}
-
 function populateEditor() {
     if (!editorTbody) return;
     editorTbody.innerHTML = '';
-    
-    const targetLanguage = langInput.value.trim();
-    const isTargetRtl = isLanguageRtl(targetLanguage);
-
-    // Set header alignment based on UI language
-    const headers = editorContainer.querySelectorAll('thead th');
-    headers.forEach(th => {
-        th.style.textAlign = (uiLang === 'fa') ? 'right' : 'left';
-    });
-    headers[0].style.textAlign = 'center'; // Keep '#' column centered
-    headers[headers.length-1].style.textAlign = 'center'; // Keep 'Action' column centered
 
     currentAllTranslatedEntries.forEach((entry, index) => {
         if (entry.otherData.lineType !== 'cue' && entry.otherData.lineType !== 'dialogue') return;
@@ -1214,14 +1161,12 @@ function populateEditor() {
 
         const originalText = entry.text_original || entry.text;
         const translatedText = entry.text;
-        
-        const isOriginalRtl = isRtl(originalText);
 
         tr.innerHTML = `
             <td class="px-4 py-2 text-center font-medium text-gray-900 dark:text-white">${entry.id}</td>
-            <td class="px-6 py-2 whitespace-pre-wrap" style="direction: ${isOriginalRtl ? 'rtl' : 'ltr'}; text-align: ${isOriginalRtl ? 'right' : 'left'};">${originalText}</td>
+            <td class="px-6 py-2 whitespace-pre-wrap">${originalText}</td>
             <td class="px-6 py-2">
-                <textarea class="w-full p-1 bg-transparent border-0 rounded-md focus:ring-2 focus:ring-primary-500 overflow-hidden" style="direction: ${isTargetRtl ? 'rtl' : 'ltr'}; text-align: ${isTargetRtl ? 'right' : 'left'};" rows="1">${translatedText}</textarea>
+                <textarea class="w-full p-1 bg-transparent border-0 rounded-md focus:ring-2 focus:ring-primary-500 overflow-hidden" rows="1">${translatedText}</textarea>
             </td>
             <td class="px-4 py-2 text-center">
                 <button class="retranslate-btn text-gray-400 hover:text-primary-500 transition-colors" title="Retranslate this line">
@@ -1346,12 +1291,11 @@ async function handleIndividualRetranslate(button) {
         return;
     }
 
-    // Set loading state
     icon.classList.add('fa-spin');
     button.disabled = true;
 
     try {
-        const chunk = [{ text: originalText }]; // Create a chunk of one
+        const chunk = [{ text: originalText }];
         const translatedLines = await translateChunkRecursively(chunk, currentApiKey, currentTargetLangForRetry, currentModel, currentTemperature, 0);
 
         if (translatedLines && translatedLines.length > 0) {
@@ -1369,7 +1313,6 @@ async function handleIndividualRetranslate(button) {
         logMessage(`Failed to re-translate line #${entryData.id}: ${error.message}`, 'error');
         showError(`Failed to re-translate line: ${error.message}`);
     } finally {
-        // Revert loading state
         icon.classList.remove('fa-spin');
         button.disabled = false;
     }
@@ -1377,7 +1320,7 @@ async function handleIndividualRetranslate(button) {
 
 // 2. Find and Replace
 function showFindReplaceModal() {
-    findState = { lastFoundRow: -1, lastFoundPos: -1, currentQuery: '' }; // Reset state
+    findState = { lastFoundRow: -1, lastFoundPos: -1, currentQuery: '' };
     findReplaceFeedback.textContent = '';
     findReplaceModal.style.display = 'flex';
     setTimeout(() => {
@@ -1402,7 +1345,6 @@ function handleFindNext() {
         return;
     }
 
-    // If query changed, reset search
     if (query !== findState.currentQuery) {
         findState = { lastFoundRow: -1, lastFoundPos: -1, currentQuery: query };
     }
@@ -1411,9 +1353,7 @@ function handleFindNext() {
     const isCaseSensitive = caseSensitiveCheckbox.checked;
 
     for (let i = 0; i < rows.length; i++) {
-        // Start from the beginning or the next row
         let rowIndex = (findState.lastFoundRow + i) % rows.length;
-        // For the first iteration (i=0), start from the next position
         if(i === 0 && findState.lastFoundRow !== -1) {
             rowIndex = findState.lastFoundRow;
         }
@@ -1439,13 +1379,13 @@ function handleFindNext() {
     }
 
     findReplaceFeedback.textContent = i18n[uiLang].errorFindEnd;
-    findState = { lastFoundRow: -1, lastFoundPos: -1, currentQuery: query }; // Reset for next search
+    findState = { lastFoundRow: -1, lastFoundPos: -1, currentQuery: query };
 }
 
 function handleReplace() {
     const rows = Array.from(editorTbody.querySelectorAll('tr[data-index]'));
     if (findState.lastFoundRow === -1 || !findInput.value) {
-        handleFindNext(); // If nothing is selected, find first
+        handleFindNext();
         return;
     }
 
@@ -1458,16 +1398,14 @@ function handleReplace() {
     const selectionStart = textarea.selectionStart;
     const selectionEnd = textarea.selectionEnd;
 
-    // Check if the current selection matches the find query
     const selectedText = textarea.value.substring(selectionStart, selectionEnd);
     const queryToCheck = caseSensitiveCheckbox.checked ? query : query.toLowerCase();
     const selectedTextToCheck = caseSensitiveCheckbox.checked ? selectedText : selectedText.toLowerCase();
 
     if (selectedTextToCheck === queryToCheck) {
         textarea.value = textarea.value.substring(0, selectionStart) + replacement + textarea.value.substring(selectionEnd);
-        textarea.dispatchEvent(new Event('input')); // Trigger update
+        textarea.dispatchEvent(new Event('input'));
         
-        // Adjust find state to the end of the replaced text
         findState.lastFoundPos = selectionStart + replacement.length -1;
     }
     
@@ -1492,18 +1430,17 @@ function handleReplaceAll() {
             const newValue = originalValue.replace(regex, replacement);
             replacementsCount += (originalValue.match(regex) || []).length;
             textarea.value = newValue;
-            textarea.dispatchEvent(new Event('input')); // Trigger update and resize
+            textarea.dispatchEvent(new Event('input'));
         }
     });
 
     findReplaceFeedback.textContent = `Replaced ${replacementsCount} occurrence(s).`;
-    findState = { lastFoundRow: -1, lastFoundPos: -1, currentQuery: '' }; // Reset search
+    findState = { lastFoundRow: -1, lastFoundPos: -1, currentQuery: '' };
 }
 
 
 // --- EVENT LISTENERS INITIALIZATION ---
 document.addEventListener('DOMContentLoaded', () => {
-    // Populate DOM references
     htmlElement = document.documentElement;
     languageToggle = document.getElementById('languageToggle');
     clearMemoryButton = document.getElementById('clear-memory-button');
@@ -1568,7 +1505,6 @@ document.addEventListener('DOMContentLoaded', () => {
     customProxyContainer = document.getElementById('custom-proxy-container');
     customProxyInput = document.getElementById('custom-proxy-input');
 
-    // Populate new DOM references
     findReplaceBtn = document.getElementById('find-replace-btn');
     findReplaceModal = document.getElementById('find-replace-modal');
     findReplaceDialog = document.getElementById('find-replace-dialog');
@@ -1587,15 +1523,14 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // Initial Page Setup
     loadApiKeys();
-    updateLanguage(localStorage.getItem('language') === 'fa' ? 'fa' : 'en');
+    updateLanguage(localStorage.getItem('language') === 'th' ? 'th' : 'en');
     goToStep(1);
 
     // Attach Event Listeners
-    languageToggle.addEventListener('click', () => updateLanguage(uiLang === 'en' ? 'fa' : 'en'));
+    languageToggle.addEventListener('click', () => updateLanguage(uiLang === 'en' ? 'th' : 'en'));
     clearMemoryButton.addEventListener('click', clearTranslationMemory);
     togglePasswordBtn.addEventListener('click', togglePasswordVisibility);
     
-    // API Key Management Listeners
     addKeyBtn.addEventListener('click', handleAddKey);
     deleteKeyBtn.addEventListener('click', handleDeleteKey);
     apiKeySelect.addEventListener('change', handleSelectKey);
@@ -1673,7 +1608,6 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     });
 
-    // Dropzone Configuration
     Dropzone.autoDiscover = false;
     if (dropzoneElement) {
         myDropzone = new Dropzone(fileInputContainer, {
@@ -1707,7 +1641,6 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }
 
-    // Event listeners for features
     editorTbody.addEventListener('click', (event) => {
         const retranslateButton = event.target.closest('.retranslate-btn');
         if (retranslateButton) {
