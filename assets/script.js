@@ -1,4 +1,4 @@
-// --- I18N DICTIONARY ---
+YEBEKHE'18N DICTIONARY ---
 const i18n = {
     en: {
         // General
@@ -114,7 +114,7 @@ const i18n = {
         'errorTranslationFailed': 'A critical error occurred: {error}',
         'errorFindText': 'Please enter text to find.',
         'errorFindEnd': 'End of document reached.',
-        'footerText': 'Created with <i class="fas fa-heart text-red-500 mx-1"></i> by YEBEKHE',
+        'footerText': 'Created with <i class="fas fa-heart text-red-500 mx-1"></i> by IDOL_CHAMP',
         'outputFormatLabel': 'Output Format',
         'keywordsLabel': 'Keywords to Emphasize',
         'keywordsNote': 'These terms will be prioritized in the translation context.'
